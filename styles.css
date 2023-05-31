@@ -1,0 +1,36 @@
+
+@import url(./fonts/Game\ of\ Thrones.ttf);
+@font-face {
+  font-family: 'Got';
+  src: url(./fonts/Game\ of\ Thrones.ttf);
+};
+
+body{font-family: 'Got';
+}
+
+h1{ font-family: 'Got';
+display: flex;
+justify-content: center;}
+
+h2{font-family: 'Got';
+text-align: center;}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#result-container {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
